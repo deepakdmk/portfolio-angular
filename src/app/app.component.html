@@ -1,0 +1,11 @@
+<app-header (simpleViewToggled)="onSimpleViewToggled($event)"></app-header><router-outlet
+  *ngIf="!showAllComponents && !isSimpleView"></router-outlet>
+
+
+<div *ngIf="showAllComponents">
+  <app-home></app-home>
+  <app-experience></app-experience>
+  <app-projects></app-projects>
+</div>
+
+<app-footer></app-footer>

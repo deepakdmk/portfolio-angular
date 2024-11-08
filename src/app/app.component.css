@@ -1,0 +1,12 @@
+/* Makes the full-page container take up the entire viewport */
+.full-page {
+    height: 100vh;
+    background: #2c3e50;
+    color: #ffffff;
+}
+
+.main {
+    height: 100vh;
+
+}
+

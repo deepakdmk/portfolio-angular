@@ -1,0 +1,26 @@
+<div class="container default-container">
+  <!-- Horizontal Timeline -->
+  <div class="row">
+    <div class="experience-container">
+      <div class="timeline">
+        <div *ngFor="let job of jobs; let i = index" class="timeline-item" (click)="selectJob(i)">
+          <div class="timeline-year">
+            <i class="bi bi-calendar"></i> <!-- Bootstrap icon for year -->
+            <span>{{ job.startYear }} - {{ job.endYear }}</span>
+          </div>
+          <div class="timeline-content">
+            <h5>{{ job.jobTitle }}</h5>
+            <p>{{ job.company }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <!-- Job Description -->
+    <div class="job-description mt-4" *ngIf="selectedJob">
+      <h4>{{ selectedJob.jobTitle }} at {{ selectedJob.company }}</h4>
+      <p>{{ selectedJob.description }}</p>
+    </div>
+  </div>
+</div>

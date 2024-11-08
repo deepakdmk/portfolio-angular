@@ -1,0 +1,14 @@
+/* projects.component.css */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 1rem; /* Spacing between cards */
+    max-height: 50vh; /* Limit height for vertical scroll */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 1rem; /* Padding around the container */
+  }
+  
+  .example-card {
+    max-width: 75%; /* Make cards responsive */
+  }
+  
