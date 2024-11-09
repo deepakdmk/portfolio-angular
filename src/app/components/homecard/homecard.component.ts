@@ -21,9 +21,9 @@ export class HomecardComponent implements OnInit{
   phraseIndex: number = 0;
   charIndex: number = 0;
   isDeleting: boolean = false;
-  typingSpeed: number = 150; // Speed for typing
+  typingSpeed: number = 100; // Speed for typing
   deletingSpeed: number = 75; // Speed for deleting
-  pauseSpeed: number = 2000; // Pause after completing a phrase
+  pauseSpeed: number = 1000; // Pause after completing a phrase
   resetSpeed: number = 500; // Speed for reset
 
   ngOnInit(): void {

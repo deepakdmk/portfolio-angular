@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class ContentService {
 
   //Home Content
-  jobTitles: string[] = ["Software Developer", "Frontend Developer"]
+  jobTitles: string[] = ["Fullstack", "Back-end","Front-end","Spring Boot","Angular"]
   homeDescription = "Im a software developer blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blablloperper  blablloperper  blablloperper  blablloperper  blablloper blsadf";
   techstack = ([
     "../../../assets/images/profile.jpg",
