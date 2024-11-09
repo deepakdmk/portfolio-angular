@@ -1,10 +1,44 @@
 .main-styles {
-    background: #1A202C ;
-    color:#F0F4F8 ;
-    font-family:sans-serif;
+    background: #1A202C;
+    color: #F0F4F8;
+    font-family: sans-serif;
 }
 
 .default-container {
     min-height: 90vh;
 }
 
+h1 {
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #24b571;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0.15rem;
+    background-color: #24b571;
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+h1:hover {
+    color: #24b571;
+    transform: scale(1.05);
+}
+
+h1:hover::after {
+    left: 0;
+    width: 100%;
+}

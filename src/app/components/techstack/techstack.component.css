@@ -1,7 +1,11 @@
 .logos-slide img {
     height: 50px;
     margin: 0 40px;
-    transition: transform .2s;
+    transition: 1s
+}
+
+.logos-slide img:hover {
+    transform: scale(1.5);
 }
 
 
@@ -13,17 +17,12 @@
 
 .logos-slide {
     display: inline-block;
-    animation: 5s slide infinite linear;
-}
-
-.logos-slide img:hover {
-    transform: scale(1.5);
+    animation: 30s slide infinite linear;
 }
 
 
 .logos:hover .logos-slide {
     animation-play-state: paused;
-
 }
 
 .logos:before,
@@ -57,3 +56,5 @@
         transform: translateX(-100%);
     }
 }
+
+

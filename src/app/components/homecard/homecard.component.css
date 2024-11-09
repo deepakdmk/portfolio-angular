@@ -77,3 +77,41 @@
     line-height: 1.6;
     padding: 0 10px; /* Adds padding for readability on narrow screens */
 }
+
+.social-buttons {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: #0e0909;
+    color: #24b571;
+    border: 2px solid #24b571;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.social-button:hover {
+    background: #24b571;
+    color: white;
+}
+
+.social-button i {
+    font-size: 20px; /* Size for the icons */
+}
+
+.social-button.linkedin i {
+    color: #0077B5; /* LinkedIn blue icon color */
+}
+
+.social-button.github i {
+    color: #171515; /* GitHub black icon color */
+}

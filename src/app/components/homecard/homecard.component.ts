@@ -12,7 +12,6 @@ import { MatCardModule } from '@angular/material/card';
 export class HomecardComponent implements OnInit {
 
   contentService = inject(ContentService);
-
   homeIntroduction = this.contentService.homeDescription;
 
   constructor(private renderer: Renderer2) {
@@ -21,7 +20,6 @@ export class HomecardComponent implements OnInit {
   }
 
   ngAfterViewInit(): void {
-    // Dynamically load Vanilla Tilt
     const tiltScript = this.renderer.createElement('script');
     tiltScript.src = '../../../assets/scripts/vanilla-tilt.min.js';
     tiltScript.onload = () => {
