@@ -1,46 +1,13 @@
 <div class="timeline">
-    <div class="container-nonbootstrap left-container">
-        <img src="../../../assets/images/brand.svg">
+    <div *ngFor="let item of timelineItems; let i = index"
+        [ngClass]="i % 2 === 0 ? 'container-nonbootstrap left-container' : 'container-nonbootstrap right-container'">
+        <img [src]="item.image" alt="{{ item.title }}">
         <div class="text-box">
-            <h2>Alphabet</h2>
-            <small>2018-2022</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in, adipisci temporibus reiciendis, id
-                expedita ex voluptatem quo eum aspernatur, enim placeat debitis quia distinctio hic voluptate. Ipsa,
-                asperiores quidem?</p>
-            <span class="left-container-arrow"></span>
-        </div>
-    </div>
-
-    <div class="container-nonbootstrap right-container">
-        <img src="../../../assets/images/brand.svg">
-        <div class="text-box">
-            <h2>Alphabet</h2>
-            <small>2018-2022</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in, adipisci temporibus reiciendis, id
-                expedita ex voluptatem quo eum aspernatur, enim placeat debitis quia distinctio hic voluptate. Ipsa,
-                asperiores quidem?</p> <span class="right-container-arrow"></span>
-        </div>
-    </div>
-
-    <div class="container-nonbootstrap left-container">
-        <img src="../../../assets/images/brand.svg">
-        <div class="text-box">
-            <h2>Alphabet</h2>
-            <small>2018-2022</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in, adipisci temporibus reiciendis, id
-                expedita ex voluptatem quo eum aspernatur, enim placeat debitis quia distinctio hic voluptate. Ipsa,
-                asperiores quidem?</p>
-        </div>
-    </div>
-
-    <div class="container-nonbootstrap right-container">
-        <img src="../../../assets/images/brand.svg">
-        <div class="text-box">
-            <h2>Alphabet</h2>
-            <small>2018-2022</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in, adipisci temporibus reiciendis, id
-                expedita ex voluptatem quo eum aspernatur, enim placeat debitis quia distinctio hic voluptate. Ipsa,
-                asperiores quidem?</p>
+            <h2>{{ item.title }}</h2>
+            <small>{{ item.date }}</small>
+            <p>{{ item.description }}</p>
+            <span *ngIf="i % 2 === 0" class="left-container-arrow"></span>
+            <span *ngIf="i % 2 !== 0" class="right-container-arrow"></span>
         </div>
     </div>
 </div>

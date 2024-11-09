@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <div class="row">
+      <div *ngFor="let project of projectCards" class="col-md-4 d-flex align-items-stretch">
+        <div class="card">
+          <div class="card-text">
+            <h2>{{ project.title }}</h2>
+            <hr>
+            <p>{{ project.description }}</p>
+            <a [href]="project.url" target="_blank" class="read-more">Read More</a>
+          </div>
+          <mat-card-footer class="example-card-footer">
+            <mat-chip-set aria-label="Tech Stacks">
+              <mat-chip *ngFor="let tech of project.techStacks">{{ tech }}</mat-chip>
+            </mat-chip-set>
+          </mat-card-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  
