@@ -34,7 +34,7 @@
   cursor: pointer;
 }
 
-.example-card-footer {
+.card-footer {
   padding-top: 10px;
   display: flex;
   justify-content: center;

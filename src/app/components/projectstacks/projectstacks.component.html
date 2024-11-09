@@ -8,7 +8,7 @@
             <p>{{ project.description }}</p>
             <a [href]="project.url" target="_blank" class="read-more">Read More</a>
           </div>
-          <mat-card-footer class="example-card-footer">
+          <mat-card-footer class="card-footer">
             <mat-chip-set aria-label="Tech Stacks">
               <mat-chip *ngFor="let tech of project.techStacks">{{ tech }}</mat-chip>
             </mat-chip-set>

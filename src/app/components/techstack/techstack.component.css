@@ -1,11 +1,11 @@
 .logos-slide img {
     height: 50px;
     margin: 0 40px;
+    transition: transform .2s;
 }
 
 
 .logos {
-    background-color: #314355;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
@@ -13,12 +13,17 @@
 
 .logos-slide {
     display: inline-block;
-    animation: 20s slide infinite linear;
+    animation: 5s slide infinite linear;
+}
+
+.logos-slide img:hover {
+    transform: scale(1.5);
 }
 
 
 .logos:hover .logos-slide {
     animation-play-state: paused;
+
 }
 
 .logos:before,
@@ -33,12 +38,12 @@
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgb(255, 255, 255, 0), #314355);
+    background: linear-gradient(to left, rgb(255, 255, 255, 0), #1A202C);
 }
 
 
 .logos:after {
-    background: linear-gradient(to right, rgb(255, 255, 255, 0), #314355);
+    background: linear-gradient(to right, rgb(255, 255, 255, 0), #1A202C);
     right: 0;
 }
 
@@ -52,5 +57,3 @@
         transform: translateX(-100%);
     }
 }
-
-

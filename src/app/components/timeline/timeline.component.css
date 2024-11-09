@@ -44,7 +44,7 @@
 .container-nonbootstrap img {
     position: absolute;
     width: 40px;
-    border-radius: 50%;
+    border-radius: 5%;
     right: -20px;
     top: 32px;
     z-index: 10;
@@ -56,10 +56,11 @@
 
 .text-box {
     padding: 20px 30px;
-    background: grey;
+    background: #E2E8F0;
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    color:black;
 }
 
 .left-container {
@@ -75,7 +76,7 @@
     position: absolute;
     width: 6px;
     height: 100%;
-    background: black;
+    background:#2c5642;
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -111,7 +112,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #fff;
+    border-left: 15px solid #E2E8F0;
     right: -15px;
 
 }
@@ -124,7 +125,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #fff;
+    border-right: 15px solid #E2E8F0;
     left: -15px;
 
 }
@@ -165,7 +166,7 @@
 
     .left-container-arrow,
     .right-container-arrow {
-        border-right: 15px solid #fff;
+        border-right: 15px solid #E2E8F0;
         border-left: 0;
         left: -15px;
     }

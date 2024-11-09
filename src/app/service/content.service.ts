@@ -6,44 +6,42 @@ import { Injectable } from '@angular/core';
 export class ContentService {
 
   //Home Content
-  jobTitles: string[] = ["Fullstack", "Back-end","Front-end","Spring Boot","Angular"]
-  homeDescription = "Im a software developer blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blabllopoper blloper  blablloperper  blablloperper  blablloperper  blablloperper  blablloper blsadf";
+  jobTitles: string[] = ["Fullstack", "Back-end", "Front-end", "Spring Boot", "Angular"]
+  homeDescription = "Welcome to my portfolio website. Developer based in Singapore with 3 years of experience as a Software Developer.";
   techstack = ([
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg",
-    "../../../assets/images/profile.jpg"
+    "../../../assets/images/spring-boot.png",
+    "../../../assets/images/angular.svg",
+    "../../../assets/images/gitlab.png",
+    "../../../assets/images/aws.png",
+    "../../../assets/images/java.svg",
   ])
 
   //Experience Content
   experienceTimeline = [
     {
-      title: 'Alphabet',
-      date: '2018-2022',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-      image: '../../../assets/images/brand.svg'
+      title: 'DXC',
+      date: '2021-2024',
+      description: 'Fullstack developer with experience in Spring Boot and Angular.',
+      image: '../../../assets/images/dxc.svg'
     },
     {
-      title: 'Beta',
-      date: '2022-Present',
-      description: 'Another description for the Beta period...',
-      image: '../../../assets/images/brand.svg'
+      title: 'University of London/SIM',
+      date: '2018-2021',
+      description: 'Bachelors of Science in Computing and Information Systems',
+      image: '../../../assets/images/uol.svg'
     },
     {
-      title: 'Gamma',
-      date: '2020-2021',
-      description: 'Description for the Gamma period...',
-      image: '../../../assets/images/brand.svg'
+      title: 'Technoally',
+      date: '2017-2018',
+      description: 'System engineer with experience in networking and IT infrastructure.',
+      image: '../../../assets/images/technoally.png'
     },
+    {
+      title: 'Singapore Armed Forces',
+      date: '2015-2017',
+      description: 'Company Quartermaster in SAF. Won awards and commended for time in service.',
+      image: '../../../assets/images/saf.png'
+    }
   ];
 
   // Projects Content
