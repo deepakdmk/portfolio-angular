@@ -50,11 +50,13 @@ export class ContentService {
     description: 'This project has',
     techStacks: ['Spring Boot', 'Angular', 'MySQL'],
     url: 'https://example.com/spring-boot-project'
-  }, {
-    title: '',
-    description: '',
-    techStacks: ['', '', ''],
-    url: ''
-  }]
+  }
+  // , {
+  //   title: '',
+  //   description: '',
+  //   techStacks: ['', '', ''],
+  //   url: ''
+  // }
+]
 
 }
