@@ -46,47 +46,15 @@ export class ContentService {
 
   // Projects Content
   projectStack = [{
-    title: 'Spring Boot Project',
-    description: 'This is a project based on Spring Boot and other frameworks.',
+    title: 'Library Management System',
+    description: 'This project has',
     techStacks: ['Spring Boot', 'Angular', 'MySQL'],
     url: 'https://example.com/spring-boot-project'
   }, {
-    title: 'Angulalololor Project',
-    description: 'An application using Angular with a modern UI and backend integration.',
-    techStacks: ['Angular', 'TypeScript', 'Firebase'],
-    url: 'https://example.com/angular-project'
-  }
-    , {
-    title: 'Angulalololor Project',
-    description: 'An application using Angular with a modern UI and backend integration.',
-    techStacks: ['Angular', 'TypeScript', 'Firebase'],
-    url: 'https://example.com/angular-project'
-  }
-    , {
-    title: 'Angulalololor Project',
-    description: 'An application using Angular with a modern UI and backend integration.',
-    techStacks: ['Angular', 'TypeScript', 'Firebase'],
-    url: 'https://example.com/angular-project'
-  }, {
-    title: 'Angulalololor Project',
-    description: 'An application using Angular with a modern UI and backend integration.',
-    techStacks: ['Angular', 'TypeScript', 'Firebase'],
-    url: 'https://example.com/angular-project'
-  }, {
-    title: 'Angulalololor Project',
-    description: 'An application using Angular with a modern UI and backend integration.',
-    techStacks: ['Angular', 'TypeScript', 'Firebase'],
-    url: 'https://example.com/angular-project'
-  }, {
-    title: 'Angulalololor Project',
-    description: 'An application using Angular with a modern UI and backend integration.',
-    techStacks: ['Angular', 'TypeScript', 'Firebase'],
-    url: 'https://example.com/angular-project'
-  }, {
-    title: 'Angulalololor Project',
-    description: 'An application using Angular with a modern UI and backend integration.',
-    techStacks: ['Angular', 'TypeScript', 'Firebase'],
-    url: 'https://example.com/angular-project'
+    title: '',
+    description: '',
+    techStacks: ['', '', ''],
+    url: ''
   }]
 
 }
