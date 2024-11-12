@@ -46,17 +46,17 @@ export class ContentService {
 
   // Projects Content
   projectStack = [{
-    title: 'Library Management System',
-    description: 'This project has',
-    techStacks: ['Spring Boot', 'Angular', 'MySQL'],
-    url: 'https://example.com/spring-boot-project'
+    title: 'Job Portal System',
+    description: 'This is spring boot project using thymeleaf as a frontend. It implements Spring Security for the account system with MySQL as the backend.',
+    techStacks: ['Spring Boot', 'Hibernate', 'Thymeleaf', 'Spring Security', 'MySQL'],
+    url: 'https://github.com/deepakdmk/JobPortalSystem-SpringBoot'
   }
-  // , {
-  //   title: '',
-  //   description: '',
-  //   techStacks: ['', '', ''],
-  //   url: ''
-  // }
-]
+    // , {
+    //   title: '',
+    //   description: '',
+    //   techStacks: ['', '', ''],
+    //   url: ''
+    // }
+  ]
 
 }
