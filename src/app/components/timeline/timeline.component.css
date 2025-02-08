@@ -10,7 +10,6 @@
     width: 50%;
     animation: movedown 1s linear forwards;
     opacity: 0;
-
 }
 
 .container-nonbootstrap:nth-child(1) {
@@ -27,6 +26,14 @@
 
 .container-nonbootstrap:nth-child(4) {
     animation-delay: 3s;
+}
+
+.container-nonbootstrap:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.container-nonbootstrap:nth-child(6) {
+    animation-delay: 5s;
 }
 
 @keyframes movedown {
@@ -60,7 +67,7 @@
     position: relative;
     border-radius: 6px;
     font-size: 15px;
-    color:black;
+    color: black;
 }
 
 .left-container {
@@ -76,14 +83,13 @@
     position: absolute;
     width: 6px;
     height: 100%;
-    background:black;
+    background: black;
     top: 0;
     left: 50%;
     margin-left: -3px;
     z-index: -1;
     animation: moveline 5s linear forwards;
 }
-
 
 @keyframes moveline {
     0% {
@@ -114,7 +120,6 @@
     border-bottom: 15px solid transparent;
     border-left: 15px solid #E2E8F0;
     right: -15px;
-
 }
 
 .right-container-arrow {
@@ -127,7 +132,6 @@
     border-bottom: 15px solid transparent;
     border-right: 15px solid #E2E8F0;
     left: -15px;
-
 }
 
 @media screen and (max-width: 600px) {
@@ -151,7 +155,6 @@
 
     .text-box small {
         margin-bottom: 10px;
-
     }
 
     .right-container {
@@ -161,7 +164,6 @@
     .left-container img,
     .right-container img {
         left: 10px;
-
     }
 
     .left-container-arrow,
